@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+  background: no-repeat center/cover
+    radial-gradient(96.74% 276.79% at 3.59% 5.28%, #f0f4ff 0%, #a5b6ee 100%);
+  text-align: center;
+}
+
+h1 {
+  width: 244px;
+  height: 48px;
+  margin: 72px auto 0;
+}
+
+h1 .img-logo {
+  width: 100%;
+}
+
+article {
+  width: 400px;
+  height: 360px;
+  margin: 60px auto;
+  padding: 48px 44px 40px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+}
+
+article .txt-title {
+  padding-bottom: 23px;
+  border-bottom: 1px solid #3d538a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: white;
+}
+
+article .cont-timer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 32px;
+  border-top: 1px solid #5b75b4;
+}
+
+.cont-timer strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #a5b6ee;
+}
+
+.cont-timer .bg-box {
+  width: 80px;
+  height: 80px;
+  background: url(../img/box.png) no-repeat center / cover;
+}
+
+.cont-timer .inp-hrs,
+.cont-timer .inp-min,
+.cont-timer .inp-sec {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+}
+
+.cont-timer .img-dot {
+  position: relative;
+  top: 10px;
+}
+
+.btn-start,
+.btn-reset {
+  margin-top: 40px;
+}
+
+.btn-start {
+  margin-right: 12px;
+}
+
+.txt-copy {
+  font-size: 14px;
+  line-height: 17px;
+  color: #8596bf;
+}

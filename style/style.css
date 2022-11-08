@@ -62,7 +62,7 @@ article .cont-timer {
 .cont-timer .bg-box {
   width: 80px;
   height: 80px;
-  background: url(/img/box.png);
+  background: url(../img/box.png);
 }
 
 .cont-timer .inp-hrs,
